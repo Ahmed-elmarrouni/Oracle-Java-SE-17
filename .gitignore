@@ -1,0 +1,14 @@
+# Java build files
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE/project files
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
