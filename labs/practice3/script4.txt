@@ -1,0 +1,77 @@
+/* String tabStrips = """
+        Used 8 times space bar  before start typing.
+	Used Tab Key befor start Typing.
+	"""; //used Tab Key befor start Typing.
+
+String tabStrips1 = """
+        Used 8 times space bar  before start typing.
+	Used Tab Key befor start Typing.
+        """; //used Tab Key befor start Typing.
+
+String tabStrips2 = """
+        Used 8 times space bar before start typing.
+	Used Tab Key befor start Typing.
+"""; //used the three quotes at start of the line to preserve the indentation.
+
+System.out.println(tabStrips);
+System.out.println(tabStrips1);
+System.out.println(tabStrips2);
+*/
+
+
+// ------------------------------------------
+/*
+String teaTxtBlk = """
+		Tea
+		""";
+
+System.out.println(teaTxtBlk);
+
+System.out.println(teaTxtBlk.length());
+
+System.out.println(teaTxtBlk.toUpperCase());
+*/
+
+// ---------------------------
+/*
+String mytxtBlk = """
+	Tea is Tasty.	|
+	Tea is Healthy.	|
+	""";
+
+System.out.println(mytxtBlk.replace('|', '*'));
+System.out.println(mytxtBlk); 
+*/
+
+// -------------------------------
+/*
+String txtBlkSample = """
+	String txtBlk = \"\"\" 
+	Text Block line 1.
+	Text Block line 2.
+	\"\"\"; 
+""";
+
+String txtStrSample = """
+	String txtStr = "String Value ";
+""";
+
+System.out.println(txtBlkSample);
+System.out.println(txtStrSample);
+*/
+
+
+// -------------------------------
+/*
+String teaType = "Black";
+float cost = 50.00f;
+
+// String mySentence = """I like %s tea and it costs $%.2f.""".formatted(teaType, cost);
+String mySentence = "I like %s tea and it costs $%.2f.".formatted(teaType, cost);
+
+System.out.println(mySentence);
+*/
+
+// -----------------------------
+
+double price = 1.85;
